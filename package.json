@@ -1,0 +1,31 @@
+{
+  "name": "fastify-multichain-address",
+  "version": "1.0.0",
+  "description": "Fastify plugin and preValidation hook for validating multi-chain cryptocurrency wallet address syntax, checksums, mandatory Memo/Destination Tag routing rules, and vanity address-poisoning defense across 46+ blockchain networks.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "homepage": "https://allswap.io/tools/address-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangglnuo-art/fastify-multichain-address.git"
+  },
+  "license": "MIT",
+  "author": "AllSwap Security Labs <zhangglnuo@gmail.com> (https://allswap.io)",
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "blockchain",
+    "cryptocurrency",
+    "address-validator",
+    "address-poisoning",
+    "web3",
+    "security",
+    "allswap"
+  ],
+  "dependencies": {
+    "fastify-plugin": "^5.0.0"
+  },
+  "peerDependencies": {
+    "fastify": "^4.0.0 || ^5.0.0"
+  }
+}
